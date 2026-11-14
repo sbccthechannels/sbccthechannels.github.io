@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art — ART AGAINST THE MACHINE</title>
+    <link rel="stylesheet" href="css/art_style.css">
+</head>
+<body class="art_page">
+
+    <!-- 2:3 Main Artboard Frame -->
+    <div class="page_container">
+
+        <!-- =================================================================
+             1. TOP "ART" TITLE PNG HEADER
+             ================================================================= -->
+        <header class="art_header">
+            <img src="images/ART_title.png" alt="ART" class="art_title_img">
+        </header>
+
+        <!-- =================================================================
+             2. SCROLLABLE ARTIST PANELS FEED
+             ================================================================= -->
+        <main class="art_feed">
+
+            <!-- FRAME 1: MULTI-IMAGE GRID + BIO ON RIGHT (MARGE PAMINTUAN PERKO) -->
+            <section class="artist_panel panel_multi">
+                
+                <!-- Top Row of 4 Framed Square Thumbnails -->
+                <div class="thumb_strip">
+                    <div class="art_thumb_box" role="button" tabindex="0" onclick="openArt('Media/ART/_ERK8199-web - Marge Perko.jpg', 'Les Grenouilles — Frogella (Front)', 'Marge Pamintuan Perko')">
+                        <img src="Media/ART/_ERK8199-web - Marge Perko.jpg" alt="Les Grenouilles Frogella Front">
+                    </div>
+
+                    <div class="art_thumb_box" role="button" tabindex="0" onclick="openArt('Media/ART/_ERK8201-web - Marge Perko.jpg', 'Les Grenouilles — Frogella (Back)', 'Marge Pamintuan Perko')">
+                        <img src="Media/ART/_ERK8201-web - Marge Perko.jpg" alt="Les Grenouilles Frogella Back">
+                    </div>
+
+                    <div class="art_thumb_box" role="button" tabindex="0" onclick="openArt('Media/ART/_ERK8219-web - Marge Perko.jpg', 'Les Grenouilles — Froggino (Back)', 'Marge Pamintuan Perko')">
+                        <img src="Media/ART/_ERK8219-web - Marge Perko.jpg" alt="Les Grenouilles Froggino Back">
+                    </div>
+
+                    <div class="art_thumb_box" role="button" tabindex="0" onclick="openArt('Media/ART/_ERK8224-web - Marge Perko.jpg', 'Les Grenouilles — Froggino (Front)', 'Marge Pamintuan Perko')">
+                        <img src="Media/ART/_ERK8224-web - Marge Perko.jpg" alt="Les Grenouilles Froggino Front">
+                    </div>
+                </div>
+
+                <!-- Bottom Row: Main Featured Artwork Left + Artist Statement Right -->
+                <div class="multi_bottom_row">
+                    <div class="art_main_box" role="button" tabindex="0" onclick="openArt('Media/ART/_ERK8205 - Marge Perko.jpg', 'Les Grenouilles', 'Marge Pamintuan Perko')">
+                        <img src="Media/ART/_ERK8205 - Marge Perko.jpg" alt="Les Grenouilles by Marge Pamintuan Perko">
+                    </div>
+
+                    <div class="artist_text_col">
+                        <h2 class="artist_heading">MARGE PAMINTUAN PERKO</h2>
+                        <div class="artist_blurb">
+                            <p>"Les Grenouilles" are a set of two ceramic sculptures of frog characters who met at a ball in Louis XIV's Versailles.</p>
+                            <p>I am a former cartoonist so all my work is rooted in the observation of human life, emotions, and interactions. I don't believe generative AI can capture the wit and the whimsy produced by human beings. These two frogs dressed in court costumes seem ridiculous, but there is also a sympathy I have with these characters, because my brain has personified them as two beings who are also quite shy and just wanting to be appreciated. Frogella and Froggino are meeting for the first time—and it takes a human to tell the story of them after seeing these two figures.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- FRAME 2: BIO LEFT + TALL ARTWORK RIGHT (KRISHNA GARCIA MARTINEZ) -->
+            <!-- NOTE: Replace YOUR_KRISHNA_ART.jpg with Krishna's exact filename in Media/ART/ -->
+            <section class="artist_panel panel_single">
+                
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">KRISHNA GARCIA MARTINEZ</h2>
+                    <div class="artist_blurb">
+                        <p>"Portrait of Richard Wagner (1813-1883) in pencil." My artwork took three days to painstakingly complete and is in honor of the greatest of musical composers whom it depicts, W. Richard Wagner. He was a man whose life was dedicated to the creation of wondrous and passionate art expressed in a way only a true human could. In-between my studying, I worked on my portrait of him tirelessly and carefully as my hand could with solely three pencils entirely in black-and-white, utilizing an 1875 portrait of Wagner as a reference. This was something that I was personally and individually inspired to do because I am so moved and inspired by the majestically beautiful music of Wagner. I wished to not only pay tribute to his art in some small way, but to share and inspire all members of our diverse campus community with it through my pencil drawing.</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="openArt('Media/ART/YOUR_KRISHNA_ART.jpg', 'Portrait of Richard Wagner (1813–1883)', 'Krishna Garcia Martinez')">
+                    <img src="Media/ART/Wagner portrait by Krishna - Krishna Garcia-Martinez.jpeg" alt="Portrait of Richard Wagner by Krishna Garcia Martinez">
+                </div>
+
+            </section>
+			
+		 <section class="artist_panel panel_single reverse">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Natalie Warren</h2>
+                    <div class="artist_blurb">
+                        <p>"Forged Identity" — This piece was created using acrylic paint markers. It represents the identity I have tried to create to differentiate myself from my twin sister. This piece is one of nine pieces I created for a themed art portfolio</p>
+						<p>I think one of the things that makes my work exclusively himan is allowing imperfections. Having patterns that aren't perfectly symetrical or stylized details are that type of human made charm that AI simply can't replicate. Additionally, art is deeply personal. No matter what prompt is fed into AI, the meaning converyed in the image it generates will be artificial. AI cannot create human experiences</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="openArt('Media/PHOTOGRAPHY/Nataliewarren.png', 'Forged Identity', 'Natalie Warren')">
+                    <img src="Media/PHOTOGRAPHY/Nataliewarren.png" alt="Artwork Title">
+                </div>
+            </section>
+			
+				
+		 <section class="artist_panel panel_single">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Paula Gregoire-Jones</h2>
+                    <div class="artist_blurb">
+                        <p>"Purple Fantasy," a mosaic style leaded stained glass.</p>
+						<p>(I had) no pattern or initial plan for this work other than I wanted to use purple glass. I start with interesting pieces of glass scraps, glass jewels and beveled glass and fit them together in a mosaic style - filling in with lead, wire inserts and soldering together</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="openArt('Media/ART/Gregoire-Jones-PurpleFantasy - Paula Gregoire Jones.JPG', 'Purple Fantasy', 'Paula Gregoire')">
+                    <img src="Media/ART/Gregoire-Jones-PurpleFantasy - Paula Gregoire Jones.JPG" alt="Artwork Title">
+                </div>
+            </section>
+			
+			 <section class="artist_panel panel_single reverse">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Yan Orellana</h2>
+                    <div class="artist_blurb">
+                        <p>Every Piece of my art is basically a self portrait that of what I'm feeling at the moment, and to beable to achieve that type of inflection, one must be alive.</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="Media/ART/IMG_8591 - Ian Lopes Orellana.jpeg','Yan Orellana'">
+                    <img src="Media/ART/IMG_8591 - Ian Lopes Orellana.jpeg">
+                </div>
+            </section>
+			
+			 <section class="artist_panel panel_single reverse">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Dallas Youngblood</h2>
+                    <div class="artist_blurb">
+                        <p>Photography, graphic design, paint, pen and stencil - A silent non-violent protest against ICE</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="openArt('Media/ART/Stand Against - Dallas Youngblood.JPEG', 'Artwork Title', 'Artist Name')">
+                    <img src="Media/ART/Stand Against - Dallas Youngblood.JPEG" alt="Artwork Title">
+                </div>
+			</section>
+				 
+				 <!-- TEMPLATE FOR TWO-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip images to left & text to right:
+                 <section class="artist_panel panel_double reverse"> -->
+            <section class="artist_panel panel_double">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Edward Perko</h2>
+                    <div class="artist_blurb">
+                        <p>"Process," Materials: Clay, glaze and acrylic paint</p>
+						<p>The main thing that makes this piece human is the medium, being clay. Clay is a fluid and somewhat uncontrollable medium to work with. Clay/ceramic projects need to have good structure and technique to withstand firings in a kiln. When being fired to such high temperatures, there is a good chance that your piece can distort, break, or explode. Another thing that makes this piece human is the theme that I associate with this piece, being that art is more about the process than than the final image. My work changed pretty drastically from its initial to its final state. I initially intended for my piece to be much more structured and intentional. However, the bottom half of my work collapsed before its first firing because it was extremely brittle. It also shifted and bent during its first firing. Instead of giving up, I continued to innovate with my piece by attaching many of the broken off pieces to the larger form after being fired again. I made this decision intentional by making the broken pieces more vibrant in color than the base. Overall, I was able to make my piece portray the process of its creation. 
+
+</p>
+                    </div>
+                </div>
+
+                <div class="art_double_group">
+                    <div class="art_double_box" role="button" tabindex="0" onclick="openArt('Media/ART/Process - Eddie Perko.jpg', 'Process', 'Edward Perko')">
+                        <img src="Media/ART/Process - Eddie Perko.jpg" alt="Process">
+                    </div>
+
+                    <div class="art_double_box" role="button" tabindex="0" onclick="openArt('Media/ART/artwork_2.jpg', 'Process close up', 'Edward Perko')">
+                        <img src="Media/ART/Process Close Up - Eddie Perko.jpg" alt="Process close up">
+                    </div>
+                </div>
+            </section>
+			
+			<!-- TEMPLATE FOR THREE-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip images to left & text to right:
+                 <section class="artist_panel panel_triple reverse"> -->
+            <section class="artist_panel panel_triple">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Richie Renteria</h2>
+                    <div class="artist_blurb">
+                        <p>"Pottery" — I use clay on a wheel to make pieces that can be used to eat or for display.</p>
+                    </div>
+                </div>
+
+                <div class="art_triple_group">
+                    <div class="art_triple_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_1234 - Richie Renteria.jpeg', 'Bowls and plates', 'Richie Renteria')">
+                        <img src="Media/ART/IMG_1234 - Richie Renteria.jpeg" alt="Artwork 1">
+                    </div>
+
+                    <div class="art_triple_box" role="button" tabindex="0" onclick="openArt('Media/ART/artwork_2.jpg', 'Bowls and plates', 'Richie Renteria')">
+                        <img src="Media/ART/IMG_1361 - Richie Renteria.jpeg" alt="Artwork 2">
+                    </div>
+
+                    <div class="art_triple_box" role="button" tabindex="0" onclick="openArt('Media/ART/artwork_3.jpg', 'Vase', 'Richie Renteria')">
+                        <img src="Media/ART/IMG_1073 - Richie Renteria.jpeg" alt="Artwork 3 ">
+                    </div>
+                </div>
+            </section>
+			
+			<!-- TEMPLATE FOR FOUR-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip 2x2 grid to left & text to right:
+                 <section class="artist_panel panel_quad reverse"> -->
+            <section class="artist_panel panel_quad">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Aliyah Curtis</h2>
+                    <div class="artist_blurb">
+                        <p>I do both digital and traditional art, so here are a few of my favorite pieces!</p>
+						<p>Intentionality is one of the most important aspects of art, a trait AI could never replicate. I try to make every pen, brush, or pencil stroke intentionally so as to get across the ideas, love, and creativity I want the piece to have. AI just mashes images together, making an artificial image, but humans cultivate real thought into their creations. I hope that’s obvious through my work. The emotion, the story, and the underlying themes are things I think my art portrays. From the expressions, the colors, the line variation or the medium combinations, these are all things I don’t believe AI could ever generate.
+</p>
+                    </div>
+                </div>
+
+                <div class="art_quad_grid">
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Untitled348_20260417184226_Original - Aliyah Curtis.png', 'Arcane Style Self Portrait', 'Aliyah Curtis')">
+                        <img src="Media/ART/Untitled348_20260417184226_Original - Aliyah Curtis.png" alt="Arcane Style Self Portrait">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Untitled445_20261014082843 - Aliyah Curtis.png', 'RED-GREEN', 'Aliyah Curtis')">
+                        <img src="Media/ART/Untitled445_20261014082843 - Aliyah Curtis.png" alt="RED-GREEN">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Untitled445_20261014082907 - Aliyah Curtis.png', 'Felix in Light', 'Aliyah Curtis')">
+                        <img src="Media/ART/Untitled445_20261014082907 - Aliyah Curtis.png" alt="Felix in Light">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/artwork_4.jpg', 'Driving on the Rincon Coast', 'Aliyah Curtis')">
+                        <img src="Media/ART/E9924DC8-17DD-4AF6-842D-3C1B777879A2_Original - Aliyah Curtis.jpeg" alt="Driving on the Rincon Coast">
+                    </div>
+                </div>
+            </section>
+			
+				<!-- TEMPLATE FOR FOUR-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip 2x2 grid to left & text to right:
+                 <section class="artist_panel panel_quad reverse"> -->
+            <section class="artist_panel panel_quad">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Thomas Ballew</h2>
+                    <div class="artist_blurb">
+                        <p>(from left to right) "Fr. Seraphim Rose"</p>
+						<p>The first one of the bearded man with the black beanie is titled Fr. Seraphim Rose. I tried to capture the spiritual nature of the man I was drawing and bring out the mystery of his soul. Despite its imperfections, the deeper human quality of character that this man possessed, I feel, is more precisely expressed.</p>
+						<p>St. Athanasius of Constantinople</p>
+						<p>The second one was inspired from an ancient Orthodox Christian icon of St. Athanasius the Confessor of Constantinople. I don’t believe that AI could replicate the piety that this image displays and evoke the desire to pray by its sentiments.  Human hearts reacn
+The fourth one was of a fake skull I drew as it rested on some pillowcases.  Although AI might be able to depict a more realistic image of a skull than me,  I don’t think it would be able to depict it the same way, given the constraints I faced on account of the medium I used</p>
+						<p>“Choco Praline:  Paris 1889”</p>
+						<p>This was a still life drawing of an oval shaped clock standing beside some stacked books.  I don’t think that AI would have been so keen as to ensure that the slight imperfections of the clock face be replicated as closely as possible.  I also think that the medium gives the image a surreal appearance as realistic as it seems.</p>
+						
+                    </div>
+                </div>
+
+                <div class="art_quad_grid">
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_0632 - Thomas Ballew.jpeg" alt="Fr. Seraphim Rose', 'Fr. Seraphim Rose', 'Thomas Ballew')">
+                        <img src="Media/ART/IMG_0632 - Thomas Ballew.jpeg" alt="Fr. Seraphim Rose">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_0764 - Thomas Ballew.jpeg" alt="St. Athanasius of Constantinople', 'St. Athanasius of Constantinople', 'Thomas Ballew')">
+                        <img src="Media/ART/IMG_0764 - Thomas Ballew.jpeg" alt="St. Athanasius of Constantinople">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_0764 - Thomas Ballew.jpeg', 'Skull Painting', 'Thomas Ballew')">
+                        <img src="Media/ART/IMG_0764 - Thomas Ballew.jpeg" alt="Skull Painting">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/image - Thomas Ballew.jpg', 'Choco Praline: Paris 1889', 'Thomas Ballew')">
+                        <img src="Media/ART/image - Thomas Ballew.jpg" alt="Choco Praline: Paris 1889">
+                    </div>
+                </div>
+            </section>
+			
+			<!-- TEMPLATE FOR FOUR-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip 2x2 grid to left & text to right:
+                 <section class="artist_panel panel_quad reverse"> -->
+            <section class="artist_panel panel_quad">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Isaac Ram</h2>
+                    <div class="artist_blurb">
+                        <p>(from left to right) "Free Parking," "Relative Rabbits,"The Call" and "Marsh Encounter"</p>
+						<p>My process begins by making a pencil drawing on a sketchpad. I start off very lightly drawing in the general shapes that will form the work, and then as it gets more complete the forms progressively get darker and more fully defined. I then take my completed pencil drawing, put it underneath a blank sheet of paper on a light table, and use a gel pen to ink the finished shapes. I do everything by hand, myself.</p>
+						<p>While you could give an AI image generator a prompt like "make a stylized ink drawing of a zebra and a rhino in parking spaces," I don't think the resulting image would be artistic in the same way as my drawings because my drawings are the product of a conscious human being using their body to create something. My art has a tangible presence— the images you see here are scans of an actual sheet of paper with ink on it, and I think that you can tell this when you look at it. My art was the product of hours of me trying to mediate this kind of relationship between my own mind and the materials I was using. If you go out and make something this way, you have the feeling of going through a process that is almost meditative, a process that doesn't exist if you just type some words into an AI generator and press enter. And there is something essential to this process, something elemental, that bestows a unique quality to the finished product resulting from it. This is what I'd call art.</p>
+						
+                    </div>
+                </div>
+
+                <div class="art_quad_grid">
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Isaac_Ram_Channels1_Free Parking - Isaac Ram.jpg" alt="Free Parking', 'Free Parking', 'Isaac Ram')">
+                        <img src="Media/ART/Isaac_Ram_Channels1_Free Parking - Isaac Ram.jpg">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Isaac_Ram_Channels2_Relative Rabbits - Isaac Ram.jpg" alt="Relative Rabbits', 'Relative Rabbits', 'Isaac Ram')">
+                        <img src="Media/ART/Isaac_Ram_Channels2_Relative Rabbits - Isaac Ram.jpg">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Isaac_Ram_Channels3_The Call - Isaac Ram.jpg', 'The Call', 'Isaac Ram')">
+                        <img src="Media/ART/Isaac_Ram_Channels3_The Call - Isaac Ram.jpg" alt="The Call">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/Isaac_Ram_Channels4_Marsh Encounter - Isaac Ram.jpg', 'Marsh Encounter', 'Isaac Ram')">
+                        <img src="Media/ART/Isaac_Ram_Channels4_Marsh Encounter - Isaac Ram.jpg">
+                    </div>
+                </div>
+            </section>
+			
+			<!-- TEMPLATE FOR FOUR-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip 2x2 grid to left & text to right:
+                 <section class="artist_panel panel_quad reverse"> -->
+            <section class="artist_panel panel_quad">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">Alyssa Binder</h2>
+                    <div class="artist_blurb">
+                        <p>Children's creative expressions in multiple mediums including liquid water colors, paper strips collage with glue, tempera easel paints with brushes and hands, and rolling golf balls in tempera paint.</p>
+						<p>SBCC's Orfalea Early Learning Center embodies a "process over product" philosophy when it comes to children's creative expressions. The adult's role is to provide interesting mediums for children to explore and time to delve deep into that exploration.  Children approach art activities with curiosity and an open mind— there are no models or instructions for children to follow and they have no preconceived notions about how their art is "supposed" to look.  Their work is truly authentically human!</p>
+						
+                    </div>
+                </div>
+
+                <div class="art_quad_grid">
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_4287 - Alyssa Binder.jpeg">
+                        <img src="Media/ART/IMG_4287 - Alyssa Binder.jpeg">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_4288 - Alyssa Binder.jpeg">
+                        <img src="Media/ART/IMG_4288 - Alyssa Binder.jpeg">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_4289 - Alyssa Binder.jpeg',)">
+                        <img src="Media/ART/IMG_4289 - Alyssa Binder.jpeg">
+                    </div>
+
+                    <div class="art_quad_box" role="button" tabindex="0" onclick="openArt('Media/ART/IMG_4291 - Alyssa Binder.jpeg', 'Marsh Encounter', 'Isaac Ram')">
+                        <img src="Media/ART/IMG_4291 - Alyssa Binder.jpeg">
+                    </div>
+                </div>
+            </section>
+			
+			
+			
+			
+
+
+            <!-- TEMPLATE FOR MORE SINGLE-ARTWORK FRAMES (Copy & paste below)
+                 Add class "reverse" to flip image to left & text to right:
+                 <section class="artist_panel panel_single reverse"> -->
+            <!--
+            <section class="artist_panel panel_single reverse">
+                <div class="artist_text_col">
+                    <h2 class="artist_heading">ARTIST NAME HERE</h2>
+                    <div class="artist_blurb">
+                        <p>"Artwork Title" — Artist blurb / statement goes here.</p>
+                    </div>
+                </div>
+
+                <div class="art_portrait_box" role="button" tabindex="0" onclick="openArt('Media/ART/artwork_file.jpg', 'Artwork Title', 'Artist Name')">
+                    <img src="Media/ART/artwork_file.jpg" alt="Artwork Title">
+                </div>
+            </section>
+            -->
+
+        </main>
+
+        <!-- =================================================================
+             3. BOTTOM CORNER NAVIGATION BUTTONS
+             ================================================================= -->
+        <nav class="corner_nav">
+            <a href="writing.html" class="nav_btn btn_left" aria-label="Go to Writing page">
+                <img src="images/P1BUTTON-WRITING.png" alt="Writing">
+            </a>
+
+            <a href="index.html" class="nav_btn btn_right" aria-label="Go to Home page">
+                <img src="images/home_button.png" alt="Home">
+            </a>
+        </nav>
+
+    </div><!-- END OF .page_container -->
+
+    <!-- =================================================================
+         4. FULL-SCREEN LIGHTBOX MODAL (OUTSIDE .page_container SO IT FILLS SCREEN)
+         ================================================================= -->
+    <div id="art_modal" class="art_modal" aria-hidden="true" onclick="closeArt()">
+        <div class="modal_inner" onclick="event.stopPropagation()">
+            <button type="button" class="close_btn"

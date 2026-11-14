@@ -1,0 +1,112 @@
+/*global reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/*background*/
+body {
+    background-color: #121212;
+    background-image: url('../images/AATMHTMLBG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* Centers the 2:3 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+/* Link reset for image buttons */
+a {
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/*Rendering performance graphics*/
+img {
+    display: block;
+    border: none;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* 1500 / 1000 aspect ratio */
+.page_container {
+    /* Locks original design proportions (2:3) */
+    aspect-ratio: 1000 / 1500;
+    height: 78vh;
+    height: 78dvh;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 3vh;   
+	padding: 2vh 0;
+    margin: 0 auto;
+}
+
+/*logo graphic*/
+.logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-shrink: 0; /* Prevents container from collapsing under pressure */
+}
+
+.AATM_logo {
+    width: 75%;           /* Proportionate width inside the 2:3 artboard */
+    max-width: 460px;     /* Desktop upper size limit */
+    min-width: 240px;     /* Mobile lower size limit */
+    height: auto;         /* Preserves exact PNG aspect ratio naturally */
+    object-fit: contain;
+}
+
+/*navigation*/
+.nav_menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vh; /* Clean vertical spacing between each red button */
+    flex-grow: 1; /* Smoothly takes up remaining lower space */
+}
+
+.nav_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_btn img {
+    width: 40%;         
+    max-width: 320px;    
+    height: auto;     
+}
+
+.nav_btn:hover img {
+	transform: scale(1.05) translateY(-2px);
+	filter:brightness(1.2) drop-shadow(0px 4px 12px rgba(255,0,0,0.35));
+	cursor: pointer;
+	}
+.nav_btn:active img {
+	transform:scale(.097) translateY(0px);
+	filter:brightness(0.95);
+}
+
