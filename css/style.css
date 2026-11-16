@@ -1,43 +1,44 @@
-/* Index Style Sheet*/
-*{
-	box-sizing:border-box;
-	margin: 0;
-	padding: 0;
+/* Index Style Sheet */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-html,body {
-	width:100%;
-	height:100%;
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
-	background-color:#121212;
-	background-image:url("../images/AATMHTMLBG.jpg");
-	background-size:cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100 vh;
+    background-color: #121212;
+    background-image: url("../images/AATMHTMLBG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-a{
-	text-decoration: none;
-	border: none;
-	outline: none;
+a {
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 img {
-	display: block;
-	border: none;
-	image-rendering: auto
+    display: block;
+    border: none;
+    image-rendering: auto;
 }
 
 .page_container {
     aspect-ratio: 1000 / 1500;
-    height: 92vh;          /* Reduce from 98vh/100vh so top & bottom never touch iframe edges */
+    height: 92vh;
     max-height: 96%;
     max-width: 94vw;
     display: flex;
@@ -49,47 +50,56 @@ img {
 }
 
 .logo_container {
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+    max-height: 55%;
 }
 
 .AATM_logo {
-	width: 75%;
-	max-width: 460px;
-	min-width: 240px;
-	height:auto;
-	object-fit:contain;
+    width: auto;
+    height: 100%;
+    max-width: 85%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .nav_menu {
-	width:100%;
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 1.2vh;
+    width: 100%;
+    height: 42%;
+    max-height: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vh;
 }
+
 .nav_btn {
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 17%;
 }
 
 .nav_btn img {
-	width:40%;
-	max-width:320px;
-	height:auto;
+    width: auto;
+    height: 100%;
+    max-height: 5.8vh;
+    max-width: 45%;
+    object-fit: contain;
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 .nav_btn:hover img {
-	transform: scale(1.05)translateY(-2px);
-	filter: drop-shadow(0px 4px 12px rgba(0,0,0,0.35));
-	cursor: pointer;
+    transform: scale(1.05) translateY(-2px);
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.35));
+    cursor: pointer;
 }
 
 .nav_btn:active img {
-	transform: scale(0.97)translateY(0px)
+    transform: scale(0.97) translateY(0px);
 }
