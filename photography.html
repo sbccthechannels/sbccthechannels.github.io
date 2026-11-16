@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography — ART AGAINST THE MACHINE</title>
+    <link rel="stylesheet" href="css/photography_style.css">
+</head>
+<body class="photography_page">
+
+    <!-- 2:3 Main Artboard Frame -->
+    <div class="page_container">
+
+        <!-- =================================================================
+             1. TOP "PHOTOGRAPHY" TITLE PNG HEADER
+             ================================================================= -->
+        <header class="photo_header">
+            <img src="images/Photographytitle.png" alt="PHOTOGRAPHY" class="photo_title_img">
+        </header>
+
+        <!-- =================================================================
+             2. SCROLLABLE PHOTOGRAPHY FEED
+             ================================================================= -->
+        <main class="photo_feed">
+            
+            <!-- CORDLE PHOTOS -->
+
+            <!-- 3-Polaroid Row -->
+            <div class="polaroid_row cols_3">
+
+                <!-- Polaroid 1 -->
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/DSC_0014_1 - Caprice Cordle.jpg', 'Chata', 'Caprice Cordle')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/DSC_0014_1 - Caprice Cordle.jpg" alt="Yellow house - Chata">
+                    </div>
+                    <span class="polaroid_title">Chata</span>
+                </div>
+
+                <!-- Polaroid 2 -->
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/DSC_0546 - Caprice Cordle.JPG', 'Nostalgia', 'Caprice Cordle')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/DSC_0546 - Caprice Cordle.JPG" alt="Nostalgia">
+                    </div>
+                    <span class="polaroid_title">Nostalgia</span>
+                </div>
+
+                <!-- Polaroid 3 -->
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/DSC_0158 - Caprice Cordle.JPG', 'Silence', 'Caprice Cordle')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/DSC_0158 - Caprice Cordle.JPG" alt="Fisherman - Silence">
+                    </div>
+                    <span class="polaroid_title">Silence</span>
+                </div>
+
+            </div>
+
+            <!-- 2-Polaroid Row -->
+            <div class="polaroid_row cols_2">
+
+                <!-- Polaroid 4 -->
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/DSC_0010 - Caprice Cordle.JPG', 'Ethereal', 'Caprice Cordle')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/DSC_0010 - Caprice Cordle.JPG" alt="Ethereal">
+                    </div>
+                    <span class="polaroid_title">Ethereal</span>
+                </div>
+
+                <!-- Polaroid 5 -->
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/DSC_0279 - Caprice Cordle.JPG', 'Catch & Release', 'Caprice Cordle')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/DSC_0279 - Caprice Cordle.JPG" alt="Catch & Release">
+                    </div>
+                    <span class="polaroid_title">Catch & Release</span>
+                </div>
+
+            </div>
+
+            <!-- Red Blurb Box 1 (Caprice Cordle) -->
+            <section class="red_blurb_box">
+                <img src="images/redblurbframe.png" alt="" class="blurb_bg_png">
+                <div class="blurb_content">
+                    <h2 class="blurb_heading">CAPRICE CORDLE, 19, 		Enviromental Science Major</h2>
+                    <div class="blurb_text">
+                        <p>My work is authentically human because I like to encapsulate emotion in my work. The feelings in me are represented by the mood and movement of my photographs. Take the girl running for example, she is a representation of the freedom and innocent joy that only children possess. When looking at the photo it takes me back to a time when all I had to worry about was playing with toys and running around. I try to create this same effect with each of my photographs, so that the observer does not just <em>see</em> my work, but they <em>feel</em> it too.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Side-by-Side Split (Billie Mauldin) -->
+            <div class="polaroid_blurb_split">
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/mauldin_colors-1 - Billie Mauldin.jpeg', 'Luck on My Clothes', 'Billie Mauldin')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/mauldin_colors-1 - Billie Mauldin.jpeg" alt="Luck on My Clothes">
+                    </div>
+                    <span class="polaroid_title">Luck on My Clothes</span>
+                </div>
+
+                <section class="red_blurb_box split_blurb">
+                    <img src="images/redblurbframe.png" alt="" class="blurb_bg_png">
+                    <div class="blurb_content">
+                        <h2 class="blurb_heading">Billie Mauldin, 19, Student</h2>
+                        <div class="blurb_text">
+                            <p>There is a certain individuality to this, I think. Clothes are innately social, and one of our earliest inventions. Even before agriculture, much before computers. This is the culmination of how I express myself to the world.</p>
+                            <p>As two trans women, how we choose to dress grants us a certain agency. There is power in that. Hormone replacement therapy is an incredible thing, but before any of that, I felt real for the first time in one of my mom's dresses. This is a power AI cannot grant me, or anyone.</p>
+                            <p>AI could easily generate something <em>like</em> this image. "A woman in a black dress, with red lipstick on, laying atop a pile of colorful clothes against a white background." It'd probably get pretty close, but the patterns would fall apart, the boundaries between garments would be blurry, and there would be no cohesive style. It would replace the love that motivated this image with cold and indifferent pixels.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+           <!-- Single Full-Length Frameless Photo + Blurb (Yan Orellana) -->
+            <div class="frameless_photo_row">
+                <div class="frameless_photo_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/IMG_8587 - Ian Lopes Orellana.jpeg', 'Cinematography', 'Yan Orellana')">
+                    <img src="Media/PHOTOGRAPHY/IMG_8587 - Ian Lopes Orellana.jpeg" alt="Cinematography">
+                    <span class="frameless_caption">CINEMATOGRAPHY</span>
+                </div>
+            </div>
+
+            <section class="red_blurb_box">
+                <img src="images/redblurbframe.png" alt="" class="blurb_bg_png">
+                <div class="blurb_content">
+                    <h2 class="blurb_heading">YAN ORELLANA, 19, Business Economy Major</h2>
+                    <div class="blurb_text">
+                        <p>The story behind it is something AI can't ever replace due to not being able to live. Every piece of my art is basically a self portrait of what I am feeling at the moment, and to be able to achieve that type of inflection, one must be alive.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =============================================================
+                 COPY-AND-PASTE TEMPLATES (Uncomment & paste anywhere above)
+                 ============================================================= -->
+
+            <!-- [OPTION A: COPY-PASTE RED BLURB BOX]
+            <section class="red_blurb_box">
+                <img src="images/redblurbframe.png" alt="" class="blurb_bg_png">
+                <div class="blurb_content">
+                    <h2 class="blurb_heading">PHOTOGRAPHER NAME</h2>
+                    <div class="blurb_text">
+                        <p>Artist blurb text goes here.</p>
+                    </div>
+                </div>
+            </section>
+            -->
+
+            <!-- [OPTION B: COPY-PASTE SINGLE FEATURED POLAROID (1 PHOTO — add tall_frame for vertical photos)]
+            <div class="polaroid_row cols_1">
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO.jpg', 'Photo Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO.jpg" alt="Photo Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO TITLE</span>
+                </div>
+            </div>
+            -->
+
+            <!-- [OPTION C: COPY-PASTE 2-POLAROID ROW (2 PHOTOS)]
+            <div class="polaroid_row cols_2">
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO_1.jpg', 'Photo 1 Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO_1.jpg" alt="Photo 1 Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO 1 TITLE</span>
+                </div>
+
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO_2.jpg', 'Photo 2 Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO_2.jpg" alt="Photo 2 Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO 2 TITLE</span>
+                </div>
+            </div>
+            -->
+
+            <!-- [OPTION D: COPY-PASTE 3-POLAROID ROW (3 PHOTOS)]
+            <div class="polaroid_row cols_3">
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO_1.jpg', 'Photo 1 Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO_1.jpg" alt="Photo 1 Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO 1 TITLE</span>
+                </div>
+
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO_2.jpg', 'Photo 2 Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO_2.jpg" alt="Photo 2 Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO 2 TITLE</span>
+                </div>
+
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO_3.jpg', 'Photo 3 Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO_3.jpg" alt="Photo 3 Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO 3 TITLE</span>
+                </div>
+            </div>
+            -->
+
+            <!-- [OPTION E: COPY-PASTE SIDE-BY-SIDE (1 POLAROID + 1 RED BLURB)]
+            <div class="polaroid_blurb_split">
+                <div class="polaroid_card" role="button" tabindex="0" onclick="openPhoto('Media/PHOTOGRAPHY/YOUR_PHOTO.jpg', 'Photo Title', 'Photographer Name')">
+                    <img src="images/photoframe.png" alt="" class="polaroid_frame_png">
+                    <div class="polaroid_photo_window">
+                        <img src="Media/PHOTOGRAPHY/YOUR_PHOTO.jpg" alt="Photo Title">
+                    </div>
+                    <span class="polaroid_title">PHOTO TITLE</span>
+                </div>
+
+                <section class="red_blurb_box split_blurb">
+                    <img src="images/redblurbframe.png" alt="" class="blurb_bg_png">
+                    <div class="blurb_content">
+                        <h2 class="blurb_heading">PHOTOGRAPHER NAME</h2>
+                        <div class="blurb_text">
+                            <p>Artist blurb text goes here.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            -->
+
+        </main>
+
+        <!-- =================================================================
+             3. BOTTOM CORNER NAVIGATION BUTTONS
+             ================================================================= -->
+        <nav class="corner_nav">
+            <a href="foreword.html" class="nav_btn btn_left" aria-label="Go to Writing page">
+                <img src="images/P1BUTTON_FORWARD.png" alt="forward">
+            </a>
+
+            <a href="music.html" class="nav_btn btn_right" aria-label="Go to music page">
+                <img src="images/P1BUTTON-MUSIC.png" alt="music">
+            </a>
+        </nav>
+
+    </div><!-- END OF .page_container -->
+
+    <!-- =================================================================
+         4. FULL-SCREEN LIGHTBOX MODAL (CUSTOM ILLUSTRATOR FRAME + CLOSE BTN)
+         ================================================================= -->
+    <div id="photo_modal" class="photo_modal" aria-hidden="true" onclick="closePhoto()">
+        <div class="modal_inner" onclick="event.stopPropagation()">
+            <!-- Custom Illustrator Background PNG -->
+            <img src="images/modal_bg.png" alt="" class="modal_bg_png">
+
+            <!-- Custom Illustrator Close Button PNG -->
+            <button type="button" class="close_btn" onclick="closePhoto()" aria-label="Close Photo">
+                <img src="images/close_btn.png" alt="Close">
+            </button>
+
+            <div class="modal_photo_window">
+                <img id="modal_img" src="" alt="">
+            </div>
+
+            <div class="modal_meta">
+                <h2 id="modal_title"></h2>
+                <p id="modal_artist"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openPhoto(imgSrc, title, artist) {
+            if (!imgSrc) return;
+            document.getElementById('modal_img').src = imgSrc;
+            document.getElementById('modal_title').textContent = title;
+            document.getElementById('modal_artist').textContent = 'By ' + artist;
+
+            const modal = document.getElementById('photo_modal');
+            modal.classList.add('active');
+            modal.setAttribute('aria-hidden', 'false');
+        }
+
+        function closePhoto() {
+            const modal = document.getElementById('photo_modal');
+            modal.classList.remove('active');
+            modal.setAttribute('aria-hidden', 'true');
+            document.getElementById('modal_img').src = '';
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closePhoto();
+            }
+        });
+    </script>
+
+</body>
+</html>
