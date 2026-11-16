@@ -39,6 +39,7 @@ img {
 	aspect-ratio: 1000/1500;
 	height: 78 vh;
 	max-width: 90vw;
+	max-height: 100%;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
