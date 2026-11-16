@@ -38,9 +38,10 @@ img {
 
 .page_container {
     aspect-ratio: 1000 / 1500;
-    height: 92vh;
+    height: 94vh;
+    height: 94dvh;
     max-height: 96%;
-    max-width: 94vw;
+    max-width: 96vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
