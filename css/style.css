@@ -87,12 +87,9 @@ img {
 }
 
 .nav_btn img {
-    width: auto;
-    height: 100%;
-    max-height: 5.8vh;
-    max-width: 45%;
-    object-fit: contain;
-    transition: transform 0.2s ease, filter 0.2s ease;
+    width: 40%;
+    height: auto;
+    max-width: 320px;
 }
 
 .nav_btn:hover img {
