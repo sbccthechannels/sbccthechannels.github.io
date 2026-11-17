@@ -144,3 +144,6 @@ img {
 .nav_btn:active img {
     transform: scale(0.96) translateY(0px);
 }
+.corner_nav {
+    padding: 0 3.5%;
+}
