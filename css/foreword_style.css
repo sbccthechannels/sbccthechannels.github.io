@@ -94,6 +94,7 @@ img {
    -------------------------------------------------------------------------- */
 .corner_nav {
     width: 100%;
+   align-self:stretch;
     height: 9.5% 
     display: flex;
     justify-content: space-between;
@@ -129,6 +130,7 @@ img {
 /* Align right button to corner boundary */
 .btn_right {
     justify-content: flex-end;
+   margin-left:auto;
 }
 
 /* --------------------------------------------------------------------------
