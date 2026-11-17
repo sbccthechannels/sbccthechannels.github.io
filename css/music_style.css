@@ -188,7 +188,7 @@ img {
     padding-right: 6px;
     color: #f4f1ea;
 	font-family:"monospace";
-    font-size: clamp(0.68rem, 1.3vh, 0.94rem);
+	font-size: 0.8rem;
     line-height: 1.38;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 	margin-left:6px;
