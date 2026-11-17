@@ -104,9 +104,10 @@ img {
 }
 
 .nav_btn {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+   max-width:45%;
 }
 
 .nav_btn img {
