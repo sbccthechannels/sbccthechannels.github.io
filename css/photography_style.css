@@ -344,7 +344,7 @@ img[src=""] {
 }
 
 .blurb_heading {
-    color: #121212;
+    color: #FFFFFF;
     font-family: 'Arial Black', sans-serif;
     font-size: clamp(0.82rem, 1.5vh, 1.1rem);
     letter-spacing: 0.08em;
@@ -361,7 +361,7 @@ img[src=""] {
     flex-grow: 1;
     overflow-y: auto;
     padding-right: 6px;
-    color: #121212;
+    color: #FFFFFF;
 	font-family:"monospace";
 	font-size: 0.8rem;
 	line-height: 1.38;
