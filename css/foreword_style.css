@@ -53,9 +53,9 @@ img {
    -------------------------------------------------------------------------- */
 .page_container {
     aspect-ratio: 1000 / 1500;
-    height: 98vh;
-    height: 98dvh;
-   max-width:100vw;
+    height: 96vh;
+    height: 96dvh;
+   max-width:98vw;
    justify-content:center;
    gap:1.5vh;
    display:flex;
@@ -79,9 +79,9 @@ img {
 }
 
 .foreword_img {
-   height:98vh;
-   height:98dvh;
-   width:100vw;
+   height:96vh;
+   height:96dvh;
+   width:98vw;
     max-width: auto;
     max-height: 100%;
     width: auto;
@@ -96,7 +96,7 @@ img {
    width:100%;
    align-self:stretch;
    height:auto;
-   margin-top:0.8vh;
+   margin-top:0.0vh;
    display:flex;
    justify-content:space-between;
    align-items:center;
