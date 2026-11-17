@@ -93,13 +93,14 @@ img {
    4. BOTTOM CORNER BUTTON NAVIGATION (25% CONTAINER HEIGHT)
    -------------------------------------------------------------------------- */
 .corner_nav {
-    width: 100% !important;
+   width:100%;
    align-self:stretch;
-    height: 9.5% 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-   flex-shrink: 0;
+   height:auto;
+   margin-top:0.8vh;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   flex-shrink:0;
    position:relative;
    z-index:20;
 }
