@@ -351,6 +351,7 @@ img[src=""] {
     text-transform: uppercase;
     line-height: 1.15;
     margin-bottom: 0.6vh;
+	margin-left: 1.0vh;
     flex-shrink: 0;
 	align-content: center;
 	text-align-last: center;
@@ -361,6 +362,7 @@ img[src=""] {
     flex-grow: 1;
     overflow-y: auto;
     padding-right: 6px;
+	padding-left: 6px;
     color: #FFFFFF;
 	font-family:"monospace";
 	font-size: 0.8rem;
